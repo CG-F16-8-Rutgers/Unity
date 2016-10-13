@@ -26,6 +26,17 @@ public class LocomotionSMB : StateMachineBehaviour {
 
         animator.SetBool("Shift", Input.GetKey(KeyCode.LeftShift));
         Debug.Log(animator.GetBool("Shift"));
+
+        animator.SetBool("Space", Input.GetKey(KeyCode.Space));
+        Debug.Log(animator.GetBool("Space"));
+
+        animator.SetBool("Q", Input.GetKey(KeyCode.Q));
+        Debug.Log(animator.GetBool("Q"));
+
+        animator.SetBool("E", Input.GetKey(KeyCode.E));
+        Debug.Log(animator.GetBool("E"));
+
+
     }
 
 

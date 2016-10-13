@@ -185,10 +185,10 @@ ModelImporter:
     - serializedVersion: 16
       name: WalkBackward_NtrlFaceFwd
       takeName: _2_a_U1_M_P_WalkBackward_NtrlFaceFwd__Fb_p180_No_0_PJ_0
-      firstFrame: 60
-      lastFrame: 152
+      firstFrame: 94
+      lastFrame: 120
       wrapMode: 0
-      orientationOffsetY: 0
+      orientationOffsetY: 3.15
       level: 0
       cycleOffset: 0
       loop: 0
@@ -197,7 +197,7 @@ ModelImporter:
       loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 1
+      loopBlendPositionXZ: 0
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0

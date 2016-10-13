@@ -495,7 +495,12 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    animationImportErrors: 
+    animationImportErrors: '
+
+      Imported file ''Jump'' conversion failed: Required human bone ''Hips'' not found
+
+
+'
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
@@ -509,16 +514,16 @@ ModelImporter:
     - serializedVersion: 16
       name: Jump
       takeName: Jump
-      firstFrame: 261
+      firstFrame: 260
       lastFrame: 338
       wrapMode: 0
-      orientationOffsetY: 0
+      orientationOffsetY: -0.47
       level: 0
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
-      loopBlend: 0
+      loopTime: 1
+      loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
       loopBlendPositionXZ: 0
@@ -533,7 +538,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+      additiveReferencePoseFrame: 256
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -1005,7 +1010,7 @@ ModelImporter:
       transformModified: 1
     - name: Hips
       position: {x: 0.002849117, y: 0.88892645, z: -0.011017799}
-      rotation: {x: -0.123206854, y: -0.05695061, z: -0.024413234, w: 0.9904447}
+      rotation: {x: -0.12320685, y: -0.056950606, z: -0.024413232, w: 0.99044466}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: LeftUpLeg
@@ -1140,7 +1145,7 @@ ModelImporter:
       transformModified: 1
     - name: LeftForeArm
       position: {x: -0.2540493, y: 2.813749e-13, z: -4.902745e-15}
-      rotation: {x: 0.33728537, y: -0.0064347256, z: -0.016474778, w: 0.9412363}
+      rotation: {x: 0.33728537, y: -0.006434725, z: -0.016474778, w: 0.94123626}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: l_erbowProxy_geo
@@ -1230,7 +1235,7 @@ ModelImporter:
       transformModified: 1
     - name: LeftHandPinky1
       position: {x: -0.06565995, y: -0.007825106, z: -0.032251246}
-      rotation: {x: -0.18729411, y: 0.04865084, z: 0.068230495, w: 0.978723}
+      rotation: {x: -0.1872941, y: 0.048650835, z: 0.06823049, w: 0.97872293}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: l_pinkyProxy_01_geo
@@ -1240,7 +1245,7 @@ ModelImporter:
       transformModified: 1
     - name: LeftHandPinky2
       position: {x: -0.030805448, y: -0.00003087457, z: -0.0014480775}
-      rotation: {x: 0.10180748, y: -0.02277761, z: 0.023467412, w: 0.9942664}
+      rotation: {x: 0.1018075, y: -0.022777611, z: 0.023467416, w: 0.9942665}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: l_pinkyProxy_02_geo
@@ -1275,7 +1280,7 @@ ModelImporter:
       transformModified: 1
     - name: LeftHandRing2
       position: {x: -0.043135457, y: -0.000020882306, z: -0.0022351784}
-      rotation: {x: 0.04131039, y: -0.02580868, z: 0.018548107, w: 0.9986408}
+      rotation: {x: 0.041310385, y: -0.025808679, z: 0.018548105, w: 0.9986407}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: l_ringProxy_02_geo
@@ -1300,7 +1305,7 @@ ModelImporter:
       transformModified: 1
     - name: LeftHandThumb1
       position: {x: -0.014231241, y: -0.012377825, z: 0.025531668}
-      rotation: {x: -0.24804421, y: -0.03298149, z: -0.016618647, w: 0.9680445}
+      rotation: {x: -0.24804421, y: -0.032981485, z: -0.016618647, w: 0.96804446}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: l_thumbProxy_01_geo
@@ -1321,7 +1326,7 @@ ModelImporter:
       transformModified: 1
     - name: LeftHandThumb3
       position: {x: -0.02546, y: -0.00764, z: 0.020833}
-      rotation: {x: 0.113969974, y: -0.14384204, z: -0.0013472552, w: 0.983015}
+      rotation: {x: 0.11396997, y: -0.14384204, z: -0.0013472551, w: 0.983015}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: l_thumbProxy_03_geo
@@ -1567,7 +1572,7 @@ ModelImporter:
       transformModified: 1
     - name: RightHandIndex2
       position: {x: 0.0370584, y: 0.00072612107, z: 0.014538894}
-      rotation: {x: -0.050790235, y: 0.01976566, z: 0.0572206, w: 0.9968729}
+      rotation: {x: -0.050790235, y: 0.019765658, z: 0.0572206, w: 0.99687284}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: r_indexProxy_02_geo
@@ -1627,7 +1632,7 @@ ModelImporter:
       transformModified: 1
     - name: RightHandPinky1
       position: {x: 0.06680334, y: -0.0019941088, z: -0.030756146}
-      rotation: {x: -0.17505625, y: -0.23548982, z: 0.026336862, w: 0.95561826}
+      rotation: {x: -0.17505623, y: -0.2354898, z: 0.02633686, w: 0.9556182}
       scale: {x: 1, y: 1, z: 1}
       transformModified: 1
     - name: r_pinkyProxy_01_geo
@@ -1746,7 +1751,8 @@ ModelImporter:
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 2ab0893f5bba9b243b65e309e78089d0,
+    type: 3}
   animationType: 3
   humanoidOversampling: 1
   additionalBone: 0
