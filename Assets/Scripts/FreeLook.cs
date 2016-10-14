@@ -11,7 +11,10 @@ public class FreeLook : MonoBehaviour {
 	// Update is called once per frame
 	void LateUpdate () {
 
-        if (Input.GetKey(KeyCode.D))
+        float xAxisValue = Input.GetAxis("Horizontal");
+        float zAxisValue = Input.GetAxis("Vertical");
+
+        if (Input.GetKey(KeyCode.L))
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -23,7 +26,7 @@ public class FreeLook : MonoBehaviour {
             }   
         }
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.J))
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -35,14 +38,28 @@ public class FreeLook : MonoBehaviour {
             }
         }
 
-        if (Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.I))
         {
-            this.transform.Translate(new Vector3(0, 0, speed));
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                this.transform.Translate(new Vector3(0, 0, speed));
+            }
+            else
+            {
+                this.transform.Translate(new Vector3(xAxisValue, 0.0f, zAxisValue));
+            }
         }
 
-        if (Input.GetKey(KeyCode.S))
+        if (Input.GetKey(KeyCode.K))
         {
-            this.transform.Translate(new Vector3(0, 0, -1 * speed));
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                this.transform.Translate(new Vector3(0, 0, -1 * speed));
+            }
+            else
+            {
+                this.transform.Translate(new Vector3(xAxisValue, 0.0f, zAxisValue));
+            }
         }
 
 
